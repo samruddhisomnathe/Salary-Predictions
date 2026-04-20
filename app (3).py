@@ -5,7 +5,8 @@ import pickle
 
 # Load the trained model
 # Make sure 'best_model.pkl' is in the same directory as app.py or provide the correct path
-with open('best_model.pkl', 'rb') as file:
+with open('salary_model_rf (7) (1).pkl
+') as file:
     model = pickle.load(file)
 
 # Streamlit App Title
